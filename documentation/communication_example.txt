@@ -1,0 +1,48 @@
+!join
+.join $nick
+
+!start
+.players $nick1 ... $nickn
+
+.turn $nick
+
+.can $nick roll
+!roll
+.roll $nick $die1 $die2
+.cannot $nick roll
+
+# Normal move moves around the edge of the board
+.move $nick $pos
+
+.drawcard $nick (chest | chance) $messageid
+
+# Teleport moves differently from the 
+.move $nick $pos teleport
+
+.can $nick buy
+!buy
+.balance $nick $dollars
+.cannot $nick buy
+
+!done
+
+.turn $nick
+
+.can $nick roll
+!roll
+.roll $nick $die1 $die2
+
+.move $nick $pos
+
+# paying rent
+.balance $nick $dollars
+.balance $nick2 $dollars
+
+!roll
+.roll $die1 $die2
+.cannot $nick roll
+
+.move $nick jail
+
+!done
+

@@ -1,0 +1,9 @@
+corner offset: 20 / 1024
+
+9 bits: 744/1024
+
+height: 140
+
+numbering: clockwise from (1,0)
+aka (1,0) to (0,0) to (1,0) to (1,1) to (1,0)
+

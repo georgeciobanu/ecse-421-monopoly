@@ -1,0 +1,7 @@
+D:\Documents\school stuff\sep ecse 428\svn\trunk\server\Monopoly-Server\bin\Debug\Monopoly-Server.exe
+D:\Documents\school stuff\sep ecse 428\svn\trunk\server\Monopoly-Server\bin\Debug\Monopoly-Server.pdb
+D:\Documents\school stuff\sep ecse 428\svn\trunk\server\Monopoly-Server\bin\Debug\log4net.dll
+D:\Documents\school stuff\sep ecse 428\svn\trunk\server\Monopoly-Server\bin\Debug\Meebey.SmartIrc4net.dll
+D:\Documents\school stuff\sep ecse 428\svn\trunk\server\Monopoly-Server\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\school stuff\sep ecse 428\svn\trunk\server\Monopoly-Server\obj\Debug\Monopoly-Server.exe
+D:\Documents\school stuff\sep ecse 428\svn\trunk\server\Monopoly-Server\obj\Debug\Monopoly-Server.pdb

@@ -1,0 +1,98 @@
+Players ordered as follows: player1, player2, player3, ... , player 4.
+.players player1 player2 player3 ... playern
+# irc nicknames cannot contain spaces
+
+Current Player: player
+.turn player
+
+player joined the game.
+.join player
+
+N players remain in the game.
+.players player1 player3 ... player4
+
+player won the game!
+.win player
+
+player the game already started with out.
+.fail player The game already started without you.
+
+player you must wait your turn.
+.fail player You must wait your turn.
+
+player, game hasn't started. Force a start by typing !start
+.fail player The game hasn't started.  Start one by saying !start
+
+player, to participate in a game type !join
+# I think this one should be dropped, since it's spammy
+
+player you are currently playing.
+# When do you need this one and not the subsequent?
+
+player you already joined the a game.
+.fail player You have already joined the game.
+
+player you are playing the game.
+# Huh?  Where's this one for?
+
+At player's request, the game will start.
+.tell * New game starting.  Type !join to participate.
+
+A minimum of N players are needed to start the game. (Currently have: M)
+.fail player A minimum of N players are needed to start the game. (Currently have: M)
+
+Player player left the active game.
+.part player
+
+Invalid Command
+.fail player
+
+Player rolled N and M
+.roll player M N
+
+Player stuck in jail -- TurnOne.
+# No message needed in a GUI
+
+Player stuck in jail -- TurnTwo.
+# No message needed in a GUI
+
+Player stuck in jail -- TurnThree.
+# No message needed in a GUI
+
+Player rolled DOUBLES (time #N) - M and M
+.rollagain player
+# so still need the .roll message
+
+Player rolled doubles three times in a row!
+.tell player You rolled doubles three times in a row
+
+Player earned $N. Now has $M
+.balance player M
+
+Player pays out $N left with $M
+.balance player M
+
+Player sent to jail!
+.move player jail teleport
+
+Player released from jail for free!
+.move player 10
+
+Player released from jail for $N
+.move player 10
+# there will also be a .balance message
+
+Player has gone bankrupt to the bank.
+.lose player
+
+Player1 has gone bankrupt to Player2
+.lose player1 player2
+
+Player now on location N
+.move player N
+.move player N backward # for "Go back 3 spaces" card
+.move player N teleport # for "Go directly to", usually
+
+Player passed go.
+# Maybe a .tell, but mostly just a .balance
+
