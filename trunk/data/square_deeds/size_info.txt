@@ -1,0 +1,3 @@
+512x512, RGB
+
+aspect ratio: 221x256
